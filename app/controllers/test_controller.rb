@@ -1,5 +1,5 @@
 class TestController < ActionController::Base#ApplicationController
   def index
-    render :template => "test/500.html", :layout => false
+    render :template => "test/test.html", :layout => false
   end
 end
